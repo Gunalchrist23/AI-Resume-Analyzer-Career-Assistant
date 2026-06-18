@@ -16,7 +16,7 @@ Built with **Python, FastAPI, LangChain, Groq API, and ChromaDB**, the system co
 
 ### Resume Analysis
 
-![Analysis](screenshots/analysis.png)
+![Analysis](Screenshot 2026-06-18 133538.png)
 
 ### Career Assistant Chatbot
 
