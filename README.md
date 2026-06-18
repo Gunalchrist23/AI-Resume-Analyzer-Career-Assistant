@@ -19,7 +19,7 @@ Built with **Python, FastAPI, LangChain, Groq API, and ChromaDB**, the system co
 <img src="Screenshot 2026-06-18 133549.png" alt="Skill Gap Analysis" width="900">
 
 <h3>🛣 Career Roadmap</h3>
-<img src="screenshots/roadmap.png" alt="Career Roadmap" width="900">
+<img src="Screenshot 2026-06-18 133602.png" alt="Career Roadmap" width="900">
 
 <h3>💬 AI Career Assistant Chatbot</h3>
 <img src="screenshots/chatbot.png" alt="Career Assistant" width="900">
