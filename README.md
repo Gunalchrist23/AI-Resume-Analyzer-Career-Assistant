@@ -12,7 +12,7 @@ Built with **Python, FastAPI, LangChain, Groq API, and ChromaDB**, the system co
 
 ### Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page]("C:\Users\GUNAL CHRIST A\OneDrive\Pictures\Screenshots\Screenshot 2026-06-18 133519.png")
 
 ### Resume Analysis
 
