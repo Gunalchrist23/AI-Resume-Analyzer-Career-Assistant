@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Analyzer</title>
+    <link rel="icon" type="image/x-icon" href="/static/data-analytics.png">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>AI Resume Analyzer & Career Assistant</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/static/analysis.html">Analysis</a>
+            <a href="/static/chat.html">Career Assistant</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2>Welcome to the AI Resume Analyzer</h2>
+            <p>Upload your resume (PDF or DOCX) to get a skill gap analysis, personalized career recommendations, and
+                actionable roadmaps based on industry standards.</p>
+            <br>
+
+            <form id="uploadForm">
+                <div class="form-group">
+                    <label for="resumeFile">Select Resume File:</label>
+                    <input type="file" id="resumeFile" accept=".pdf,.docx" required>
+                </div>
+                <button type="submit" class="btn">Analyze Resume</button>
+            </form>
+
+            <div id="loadingIndicator" class="loading">
+                Analyzing your resume... Please wait.
+            </div>
+
+            <div id="uploadResult" style="margin-top: 1rem; display: none;"></div>
+        </div>
+    </main>
+
+    <script src="/static/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Analysis | AI Resume Analyzer</title>
+    <link rel="icon" type="image/x-icon" href="data-analytics.png">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>AI Resume Analyzer & Career Assistant</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/static/analysis.html">Analysis</a>
+            <a href="/static/chat.html">Career Assistant</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card" id="resumeDetailsCard" style="display: none;">
+            <h2>Extracted Resume Details</h2>
+            <p><strong>Name:</strong> <span id="candName"></span></p>
+            <p><strong>Email:</strong> <span id="candEmail"></span></p>
+            <p><strong>Phone:</strong> <span id="candPhone"></span></p>
+
+            <h3>Education</h3>
+            <ul id="candEducation" style="margin-left: 20px;"></ul>
+
+            <h3>Current Skills</h3>
+            <div id="candSkills"></div>
+        </div>
+
+        <div class="card" id="recommendationsCard" style="display: none;">
+            <h2>Recommended Roles & Skill Gap Analysis</h2>
+            <div id="rolesContainer"></div>
+        </div>
+
+        <div class="card" id="roadmapCard" style="display: none;">
+            <h2>Career Roadmap</h2>
+            <p><strong>Role:</strong> <span id="roadmapRole"></span></p>
+            <div id="roadmapContent"
+                style="white-space: pre-wrap; background: #f4f4f4; padding: 10px; border-radius: 4px;"></div>
+            <br>
+            <button id="loadRoadmapBtn" class="btn">Generate Detailed Roadmap</button>
+        </div>
+
+        <div id="noDataMessage" class="card">
+            <h2>No Analysis Found</h2>
+            <p>Please <a href="/">upload and analyze</a> a resume first.</p>
+        </div>
+    </main>
+
+    <script src="/static/js/main.js"></script>
+    <script>
+        // Load data on page load for analysis page
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window.location.pathname.includes('analysis.html')) {
+                fetchAnalysisResults();
+            }
+        });
+    </script>
+</body>
+
+</html>

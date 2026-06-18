@@ -1,0 +1,15 @@
+{
+  "name": "ai-resume-screening",
+  "version": "1.0.0",
+  "description": "AI Resume Analyzer & Career Assistant",
+  "main": "app.py",
+  "scripts": {
+    "setup": "python -m venv venv && venv\\Scripts\\pip install -r requirements.txt",
+    "start": "venv\\Scripts\\python -u app.py",
+    "dev": "venv\\Scripts\\python -u app.py"
+  },
+  "dependencies": {
+    "groq-sdk": "^0.15.0",
+    "readline-sync": "^1.4.10"
+  }
+}

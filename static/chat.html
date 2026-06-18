@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Assistant Chatbot</title>
+    <link rel="icon" type="image/x-icon" href="data-analytics.png">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>AI Resume Analyzer & Career Assistant</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/static/analysis.html">Analysis</a>
+            <a href="/static/chat.html">Career Assistant</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2>Career AI Assistant</h2>
+            <p>Ask me about careers, roadmaps, required skills, or how to improve your resume!</p>
+
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message bot-message">
+                        Hello! I am your AI Career Assistant. How can I help you today?
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="chatInput" placeholder="Ask about AI Engineer, required skills, or RAG...">
+                    <button id="sendBtn" class="btn">Send</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/static/js/main.js"></script>
+    <script>
+        // Initialize chat listener
+        document.addEventListener('DOMContentLoaded', () => {
+            const sendBtn = document.getElementById('sendBtn');
+            const chatInput = document.getElementById('chatInput');
+
+            if (sendBtn && chatInput) {
+                sendBtn.addEventListener('click', sendMessage);
+                chatInput.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') sendMessage();
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

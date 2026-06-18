@@ -1,0 +1,34 @@
+ROLE: AI Engineer
+DESCRIPTION: AI Engineers build, test, and deploy artificial intelligence models. They focus on turning machine learning models into APIs and services that can be used in production applications.
+RESPONSIBILITIES: Developing AI models, building scalable infrastructure for ML, deploying models, optimizing AI algorithms.
+REQUIRED SKILLS: Python, Machine Learning, Deep Learning, TensorFlow, PyTorch
+LEARNING ROADMAP: 1. Learn Python and Math. 2. Master Machine Learning concepts. 3. Learn Deep Learning frameworks (TensorFlow/PyTorch). 4. Understand model deployment.
+EXPECTED SALARY RANGE: $100,000 - $160,000
+
+ROLE: ML Engineer
+DESCRIPTION: Machine Learning Engineers focus on designing and implementing ML applications. They bridge the gap between data science and software engineering.
+RESPONSIBILITIES: Designing ML systems, researching and implementing ML algorithms, performing statistical analysis.
+REQUIRED SKILLS: Python, Machine Learning, Scikit-learn, Pandas, Model Deployment
+LEARNING ROADMAP: 1. Learn Python. 2. Master Data Structures and Algorithms. 3. Learn Scikit-learn and Pandas. 4. Focus on ML system design.
+EXPECTED SALARY RANGE: $110,000 - $150,000
+
+ROLE: Data Analyst
+DESCRIPTION: Data Analysts interpret data and turn it into information which can offer ways to improve a business.
+RESPONSIBILITIES: Collecting and interpreting data, identifying patterns, creating dashboards.
+REQUIRED SKILLS: Python, SQL, Excel, Data Visualization, Tableau
+LEARNING ROADMAP: 1. Learn Excel and SQL. 2. Learn Python and Pandas. 3. Master Data Visualization tools like Tableau.
+EXPECTED SALARY RANGE: $60,000 - $90,000
+
+ROLE: AI Chatbot Developer
+DESCRIPTION: AI Chatbot Developers specialize in building conversational agents using NLP and LLMs.
+RESPONSIBILITIES: Designing conversation flows, integrating LLMs, building NLP pipelines.
+REQUIRED SKILLS: Python, Rasa, LangChain, NLP, Dialogflow
+LEARNING ROADMAP: 1. Learn Python. 2. Learn basic NLP concepts. 3. Master LangChain and LLM APIs. 4. Practice building conversational flows.
+EXPECTED SALARY RANGE: $90,000 - $130,000
+
+ROLE: RAG Developer
+DESCRIPTION: RAG (Retrieval-Augmented Generation) Developers build systems that combine information retrieval with LLM generation to reduce hallucinations and provide accurate answers.
+RESPONSIBILITIES: Building vector databases, optimizing retrieval pipelines, integrating LLMs for accurate generation.
+REQUIRED SKILLS: Python, LangChain, ChromaDB, Vector Databases, LLMs
+LEARNING ROADMAP: 1. Learn Python and LLM basics. 2. Understand embeddings and vector math. 3. Master ChromaDB and LangChain. 4. Build custom RAG pipelines.
+EXPECTED SALARY RANGE: $110,000 - $150,000
