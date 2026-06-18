@@ -8,21 +8,22 @@ Built with **Python, FastAPI, LangChain, Groq API, and ChromaDB**, the system co
 
 ## 📸 Project Preview
 
-> Add screenshots here
+<h2>📸 Project Preview</h2>
 
-### Home Page
+<h3>🏠 Home Page & Resume Upload</h3>
+<img src="Screenshot 2026-06-18 133519.png" alt="Home Page" width="900">
 
-![Home Page]("C:\Users\GUNAL CHRIST A\OneDrive\Pictures\Screenshots\Screenshot 2026-06-18 133519.png")
+<h3>📊 Resume Analysis</h3>
+<img src="screenshots/analysis.png" alt="Resume Analysis" width="900">
 
-### Resume Analysis
+<h3>🎯 Skill Gap Analysis</h3>
+<img src="screenshots/recommendation.png" alt="Skill Gap Analysis" width="900">
 
-![Analysis](Screenshot 2026-06-18 133538.png)
+<h3>🛣 Career Roadmap</h3>
+<img src="screenshots/roadmap.png" alt="Career Roadmap" width="900">
 
-### Career Assistant Chatbot
-
-![Chatbot](screenshots/chatbot.png)
-
----
+<h3>💬 AI Career Assistant Chatbot</h3>
+<img src="screenshots/chatbot.png" alt="Career Assistant" width="900">
 
 ## 🎯 Problem Statement
 
